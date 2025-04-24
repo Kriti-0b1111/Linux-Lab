@@ -1,0 +1,27 @@
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab (main) $ mkdir Lab-1
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab (main) $ touch Lab-1/file-1.txt # CREATES FILE-1.TXT INSIDE LAB-1 DIRECTORY
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab (main) $ ls
+Lab-0.txt  Lab-1  README.md
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab (main) $ cd Lab-1
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ ls
+file-1.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ mv file-1.txt file1.txt # RENAMES THE FILE
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ ls
+file1.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ echo This is content of File 1 > file1.txt 
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ # echo WRITES INTO THE FILE
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ cat file1.txt # DISPLAY CONTENT OF THE FILE
+This is content of File 1
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ cp file1.txt file1a.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ ls
+file1a.txt  file1.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ # cp COPIES CONTENT TO ANOTHER FILE
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ cat file1a.txt
+This is content of File 1
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ pwd # SHOWS WORKING DIRECTORY
+/workspaces/Linux-Lab/Lab-1
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ touch .secret-plan.txt # CREATING A HIDDEN FILE
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ ls -a # DISPLAYS HIDDEN FILE
+.  ..  file1a.txt  file1.txt  .secret-plan.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-1 (main) $ ls
+file1a.txt  file1.txt
