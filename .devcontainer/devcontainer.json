@@ -1,0 +1,11 @@
+{
+  "name": "Linux Lab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "echo 'Welcome to your custom Linux lab!'"
+}
