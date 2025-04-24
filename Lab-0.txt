@@ -1,0 +1,14 @@
+@Kriti-0b1111 ➜ ~ $ mkdir linux-labs # CREATING A NEW DIRECTORY
+@Kriti-0b1111 ➜ ~ $ ls
+linux-lab  linux-labs
+@Kriti-0b1111 ➜ ~ $ ls # DISPLAYS THE LIST OF FILES IN CURRENT DIRECTORY
+linux-lab  linux-labs
+@Kriti-0b1111 ➜ ~ $ cd # CHANGES THE DIRECTORY
+@Kriti-0b1111 ➜ ~ $ cd linux-lab # DIRECTORY NAME
+@Kriti-0b1111 ➜ ~/linux-lab $ ls -l # LIST WITH THE FILE DETAILS
+total 0
+@Kriti-0b1111 ➜ ~/linux-lab $ la -a # SHOWS ALL FILES INCLUDING HIDDEN FILES
+.  ..
+@Kriti-0b1111 ➜ ~/linux-lab $ cd .. #GOES UP ONE LEVEL
+@Kriti-0b1111 ➜ ~ $ cd linux-lab
+@Kriti-0b1111 ➜ ~/linux-lab $ cd ~ # GOES TO HOME DIRECTORY
