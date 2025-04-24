@@ -1,0 +1,7 @@
+Create a folder called Projects
+
+Inside it, create two files: idea1.txt and idea2.txt
+
+Rename idea2.txt to future-idea.txt
+
+Copy idea1.txt to idea1-copy.txt
