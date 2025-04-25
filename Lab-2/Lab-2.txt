@@ -1,0 +1,19 @@
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ touch file2.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ echo  This exercise is to understand File management and permissions.> file2.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ ls -l
+total 4
+-rw-rw-rw- 1 vscode vscode 65 Apr 25 04:43 file2.txt
+-rw-rw-rw- 1 vscode vscode  0 Apr 25 04:39 Lab-2.txt
+-rw-rw-rw- 1 vscode vscode  0 Apr 25 04:39 TASK-2.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ chmod 400 file2.txt #CHANGE FILE PERMISSION TO READ ONLY
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ ls -l
+total 4
+-r-------- 1 vscode vscode 65 Apr 25 04:43 file2.txt
+-rw-rw-rw- 1 vscode vscode  0 Apr 25 04:39 Lab-2.txt
+-rw-rw-rw- 1 vscode vscode  0 Apr 25 04:39 TASK-2.txt
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ chmod 600 file2.txt #CHANGE FILE PERMISSION TO READ & WRITE
+@Kriti-0b1111 ➜ /workspaces/Linux-Lab/Lab-2 (main) $ ls -l
+total 4
+-rw------- 1 vscode vscode 65 Apr 25 04:43 file2.txt
+-rw-rw-rw- 1 vscode vscode  0 Apr 25 04:39 Lab-2.txt
+-rw-rw-rw- 1 vscode vscode  0 Apr 25 04:39 TASK-2.txt
