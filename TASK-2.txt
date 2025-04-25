@@ -1,0 +1,20 @@
+  Task: 
+
+1. Create a new directory named Lab-2
+
+2. Inside it, create a file with any content  
+
+3. Check current permissions  for file 
+
+4. Make the file read-only for everyone
+
+
+5. Try editing the file to confirm it’s read-only
+ -----Expected: You should get a Permission denied error. 
+
+6. Make it readable and writable only by you (the owner)
+ 
+
+7. Create another file called notes.sh and give execute permission only to yourself  
+
+8. Use ls -l to confirm permissions on both files 
