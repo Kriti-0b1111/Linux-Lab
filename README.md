@@ -28,7 +28,8 @@ This repo is structured as a series of labs — each one focusing on specific Li
 
 ## 📝 How to Use
 
-Each lab has its own `.txt` file. Open it, follow the instructions, and try the commands in your terminal.  
+Each lab has its own 'Lab#.txt' & 'TASK.txt' file. Lab#.txt file contains the commands and TASK.txt file contains a small task.
+Open it, follow the instructions, and try the commands in your terminal.  
 Keep committing your progress as you go!
 
 ---
