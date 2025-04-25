@@ -1,0 +1,47 @@
+🔐 chmod Command Explained
+chmod stands for change mode, and it's used in Linux to change the permissions of files and directories.
+
+🧠 File Permissions Refresher
+Each file has three sets of permissions:
+
+User (u) – the owner
+
+Group (g) – the group assigned to the file
+
+Others (o) – everyone else
+
+Each set can have:
+
+r = read (4)
+
+w = write (2)
+
+x = execute (1)
+
+You sum the numbers to set permission levels.
+
+🔢 Numeric Mode
+
+Permission	Number
+r--	4
+-w-	2
+--x	1
+rw-	6 (4+2)
+rwx	7 (4+2+1)
+So for chmod 755 file.txt:
+
+7 (owner): rwx
+
+5 (group): r-x
+
+5 (others): r-x
+
+✍️ Common Examples
+bash
+Copy
+Edit
+chmod 400 file.txt   # Owner: read-only, others: no access
+chmod 644 file.txt   # Owner: read/write, others: read-only
+chmod 755 script.sh  # Owner: full access, others: read + execute
+chmod +x script.sh   # Adds execute permission
+chmod -w file.txt    # Removes write permission
