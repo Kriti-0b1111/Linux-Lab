@@ -37,9 +37,7 @@ So for chmod 755 file.txt:
 5 (others): r-x
 
 ✍️ Common Examples
-bash
-Copy
-Edit
+
 chmod 400 file.txt   # Owner: read-only, others: no access
 chmod 644 file.txt   # Owner: read/write, others: read-only
 chmod 755 script.sh  # Owner: full access, others: read + execute
