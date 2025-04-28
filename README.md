@@ -14,7 +14,7 @@ Linux is a powerful, open-source operating system that runs everything from serv
 
 This repo is structured as a series of labs — each one focusing on specific Linux concepts and commands.
 
-### 🧪 Labs Covered So Far
+### 🧪 Labs 
 
 | Lab #   | Description                       | 
 |---------|-----------------------------------|
